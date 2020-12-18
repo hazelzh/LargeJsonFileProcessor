@@ -18,7 +18,7 @@ Java(TM) SE Runtime Environment (build 15.0.1+9-18)
 Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
 
 step 2:
-download the playlist-jar-with-dependencies.jar, changes.json, mixtape.json
+in the test directory, there are some the case and a jar file: the playlist-jar-with-dependencies.jar, changes.json, mixtape.json
 
 step 3:
 You can run the jar directly, use the command:
