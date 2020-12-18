@@ -1,4 +1,4 @@
-**Overview**
+#Overview
 The application applies the changes from the changes file to the mixtape.json data, and produce output.json.
 The application can read large mixtape.json files with jackson stream API.
 To speed up, the application load entire change.json file into memory, this way, 
@@ -55,4 +55,4 @@ so we could just split playlists.
 mixtape_0.json (maintaining playlists whose id from 0 to 999)
 mixtape_1.json (maintaining playlists whose id from 1000 to 1999)
 ...
-mixtape_n.json(maintaining  playlists whose id from n*1000 to n*1000 + 999) 
+mixtape_n.json(maintaining  playlists whose id from 1000 * n to 1000 * n + 999) 
