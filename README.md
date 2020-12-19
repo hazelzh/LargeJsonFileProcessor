@@ -24,11 +24,9 @@ step 3:
 You can run the jar directly or compile it locally, 
 1. To run it directly, use the command:
 java -jar playlist-jar-with-dependencies.jar param1 param2 param3,
-
-param1: the file path of mixtape.json 
-param2: the file path of changes.json 
+param1: the file path of mixtape.json,
+param2: the file path of changes.json, 
 param3: the output directory
-
 for example:
 java -jar playlist-jar-with-dependencies.jar ./mixtape.json ./changes.json ./
 
