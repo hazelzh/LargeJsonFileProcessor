@@ -11,7 +11,7 @@ Output: output.json file
 **How to run**
 step 1:
 Since it's a java application, the jdk is needed to be installed. 
-To check if jdk is installed, use this command: java -version
+To check if jdk is installed, use this command: java -version, 
 the response looks like:
 java version "15.0.1" 2020-10-20
 Java(TM) SE Runtime Environment (build 15.0.1+9-18)
@@ -23,7 +23,7 @@ in the test directory, there are some the case and a jar file: the playlist-jar-
 step 3:
 You can run the jar directly or compile it locally, 
 1. To run it directly, use the command:
-java -jar playlist-jar-with-dependencies.jar param1 param2 param3
+java -jar playlist-jar-with-dependencies.jar param1 param2 param3,
 
 param1: the file path of mixtape.json 
 param2: the file path of changes.json 
@@ -33,9 +33,8 @@ for example:
 java -jar playlist-jar-with-dependencies.jar ./mixtape.json ./changes.json ./
 
 2. To compile it locally, maven is needed to be installed:
-To check if maven is installed, use this command:
-mvn -v
-then go to the LargeJsonFileProcessor directory, execute: mvn clean package
+To check if maven is installed, use this command: mvn -v, 
+then go to the LargeJsonFileProcessor directory, execute: mvn clean package,
 after this, a jar file: playlist-jar-with-dependencies.jar will be generated
 then run it: java -jar playlist-jar-with-dependencies.jar param1 param2 param3
 
